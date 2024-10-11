@@ -53,6 +53,36 @@
             bindings = <&soft_off>;
             key-positions = <15 16 17 18 19 33>;
         };
+
+        LeftBracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <3 4>;
+        };
+
+        LeftBrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <23 24>;
+        };
+
+        LeftParenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <13 14>;
+        };
+
+        RightBracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 5>;
+        };
+
+        RightParenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <15 16>;
+        };
+
+        RightBrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <25 26>;
+        };
     };
 
     keymap {
