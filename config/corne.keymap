@@ -24,16 +24,6 @@
             key-positions = <8 9>;
         };
 
-        Tilde {
-            bindings = <&kp GRAVE>;
-            key-positions = <20 21>;
-        };
-
-        Quote {
-            bindings = <&kp APOSTROPHE>;
-            key-positions = <29 28>;
-        };
-
         SoftReset {
             bindings = <&sys_reset>;
             key-positions = <0 1 2 3 4 5 6 7 8 9 32 33>;
@@ -111,10 +101,10 @@
             //             | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp N1              &kp N2  &kp N3    &kp N4  &kp N5             &kp N6                &kp N7    &kp N8    &kp N9     &kp N0
-  &mt LEFT_SHIFT TAB  &trans  &trans    &trans  &trans             &kp PAGE_UP           &kp HOME  &kp UP    &kp END    &kp LEFT_SHIFT
-  &kp LCTRL           &trans  &trans    &trans  &trans             &kp PAGE_DOWN         &kp LEFT  &kp DOWN  &kp RIGHT  &kp LCTRL
-                              &kp LGUI  &trans  &mt LCTRL SPACE    &mt LEFT_SHIFT ENTER  &mo 3     &kp RALT
+  &kp N1          &kp N2  &kp N3     &kp N4  &kp N5             &kp N6                &kp N7    &kp N8    &kp N9     &kp N0
+  &mt LSHIFT TAB  &trans  &kp SPACE  &trans  &trans             &kp PAGE_UP           &kp HOME  &kp UP    &kp END    &kp LEFT_SHIFT
+  &kp LCTRL       &trans  &trans     &trans  &trans             &kp PAGE_DOWN         &kp LEFT  &kp DOWN  &kp RIGHT  &kp LCTRL
+                          &kp LGUI   &trans  &mt LCTRL SPACE    &mt LEFT_SHIFT ENTER  &mo 3     &kp RALT
             >;
         };
 
@@ -126,10 +116,10 @@
             //             | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp F1  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR          &kp RPAR
-  &kp F1  &kp F2  &kp F3    &kp F4    &kp F5       &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-  &trans  &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE
-                  &kp LGUI  &mo 3     &kp SPACE    &kp RET    &trans     &kp RALT
+  &kp F1   &kp F2   &kp F3    &kp F4  &kp F5       &kp CARET  &kp AMPS   &kp ASTRK      &kp LPAR          &kp RPAR
+  &kp F6   &kp F7   &kp F8    &kp F9  &kp F10      &kp MINUS  &kp EQUAL  &kp BACKSLASH  &kp LEFT_BRACKET  &kp SINGLE_QUOTE
+  &kp F11  &kp F12  &trans    &trans  &trans       &kp UNDER  &kp PLUS   &kp PIPE       &kp LEFT_BRACE    &kp GRAVE
+                    &kp LGUI  &mo 3   &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
 
@@ -139,6 +129,15 @@
   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans  &trans  &trans  &trans  &trans
   &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &trans  &trans
                                 &trans         &trans         &trans           &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
