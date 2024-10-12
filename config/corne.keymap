@@ -26,12 +26,12 @@
 
         SoftoffLeft {
             bindings = <&soft_off>;
-            key-positions = <10 11 12 13 32>;
+            key-positions = <11 12 13 32>;
         };
 
         SoftoffRight {
             bindings = <&soft_off>;
-            key-positions = <16 17 18 19 33>;
+            key-positions = <16 17 18 33>;
         };
 
         LeftBracket {
