@@ -36,12 +36,12 @@
 
         LeftBracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <3 4>;
+            key-positions = <23 24>;
         };
 
         LeftBrace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <23 24>;
+            key-positions = <3 4>;
         };
 
         LeftParenthesis {
@@ -51,7 +51,7 @@
 
         RightBracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 5>;
+            key-positions = <25 26>;
         };
 
         RightParenthesis {
@@ -61,7 +61,7 @@
 
         RightBrace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <25 26>;
+            key-positions = <6 5>;
         };
     };
 
@@ -115,7 +115,7 @@
 
         meta_layer {
             bindings = <
-  &bt BT_CLR     &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans
+  &trans         &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &bt BT_CLR
   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans  &trans  &trans  &trans  &trans
   &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &trans  &trans
                                 &trans         &trans         &trans           &trans  &trans  &trans
